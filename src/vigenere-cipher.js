@@ -21,37 +21,12 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 class VigenereCipheringMachine {
 
-  constructor(alphabet) {
-    this.alphabet = alphabet;
-    this.mode = mode || mode === undefined;
-  }
-
-  generateSquare() {
-    for (let i = 0; i < this.alphabet.length; i++) {
-      let row = this.alphabet.slice(i);
-      row += this.alphabet.slice(0, i);
-      this.square.push(row);
-    }
-  }
-
-  getSquare() {
-    return this.square;
-  }
-
   encrypt(message, key) {
 
-    if (!message || !key) {
-      throw new Error('Incorrect arguments!');
-    }
- 
   }
 
 
   decrypt(message, key) {
-
-    if (!message || !key) {
-      throw new Error('Incorrect arguments!');
-    }
   }
 }
 
