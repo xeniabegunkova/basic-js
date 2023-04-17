@@ -11,11 +11,22 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  * The result should be [-1, 150, 160, 170, -1, -1, 180, 190]
  */
-function sortByHeight(/* arr */) {
-  throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
+function sortByHeight(arr) {
+  /*for (j = 0; j < arr.length - 1; j++) {
+    for (let i = 0; i < arr.length - 1; i++) {
+      if (arr[i]>arr[i+1]) {
+        let temp = arr[i]
+        arr[i] = arr[i+1]
+        arr[i+1] = temp;
+      }
+    }
+  }*/
+
+
 }
 
 module.exports = {
   sortByHeight
 };
+
+//https://www.techiedelight.com/ru/sort-array-of-objects-javascript/
